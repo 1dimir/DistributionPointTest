@@ -11,7 +11,12 @@
 		<Metadata name="CommonModule.ИнтеграцияHTTP.Module" id="a1a7410d-c3f3-46c3-b658-626251ef9345.0" configVersion="7bb6a345e625d849a33f96a05af597ec00000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON" id="2b89cc80-dc3f-4b28-b482-745953e011a2" configVersion="830a875ca883c741a0c0a02cac1fe05400000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON.Module" id="2b89cc80-dc3f-4b28-b482-745953e011a2.0" configVersion="964ebb755efcd044826f46088ebb454500000000"/>
-		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="2ecf8d57c6ad7a40b15eeef6b6790a7f00000000"/>
+		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="0ce8e582c467734686529c99129dafa100000000"/>
+		<Metadata name="DataProcessor.Выдача" id="befdd0a5-0d50-46a9-9d48-bc3b9e820ea9" configVersion="a0b088c6e1040a468407e149bdb6a70c00000000"/>
+		<Metadata name="DataProcessor.Отгрузка" id="b12920b0-3109-47cc-8650-7e79764f3820" configVersion="ef6abc7a193c0a4f8de72d6795185c0600000000"/>
+		<Metadata name="DataProcessor.Приемка" id="8c97de3c-a355-4ff0-9127-29c10e7029f8" configVersion="0908d36c848b214e8f6e6511ffab484300000000"/>
+		<Metadata name="DataProcessor.Приемка.Form.Форма" id="a39e1629-2138-4fc4-8ab9-1436b7619837" configVersion="c6ebf9a7cdd89c4a903a313a50c4438d00000000"/>
+		<Metadata name="DataProcessor.Приемка.Form.Форма.Form" id="a39e1629-2138-4fc4-8ab9-1436b7619837.0" configVersion="2a9e2ac53d0f95429161a614c665ee5800000000"/>
 		<Metadata name="Document.Выдача" id="0eb1590e-0e69-4227-93fc-c8be7039d68a" configVersion="c8d1bb94cc1e4f4d822e441ed27a266c00000000">
 			<Metadata name="Document.Выдача.TabularSection.Заказы" id="0a38622b-6072-49b4-b623-7e20589e170a"/>
 			<Metadata name="Document.Выдача.TabularSection.Заказы.Attribute.Заказ" id="67e17c56-f1d1-4c72-b553-1f148e1db8e2"/>
@@ -81,7 +86,11 @@
 		<Metadata name="Role.APIПланПоступления.Rights" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245.0" configVersion="41e49fb0e82c4a46be2e15e338969c9600000000"/>
 		<Metadata name="Role.ПолныеПрава" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3" configVersion="d86cc10054b02043a84fbfe4f55db70a00000000"/>
 		<Metadata name="Role.ПолныеПрава.Rights" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3.0" configVersion="231c0cd17541484c8592e3c1d8f6044700000000"/>
-		<Metadata name="Role.Специалист" id="121144a1-c27a-410b-a7f2-c86001ba857b" configVersion="6b5ac6977a2fce4e9f8d960209f52e5b00000000"/>
-		<Metadata name="Role.Специалист.Rights" id="121144a1-c27a-410b-a7f2-c86001ba857b.0" configVersion="265e46e3b687964d8b57b146c53cf98600000000"/>
+		<Metadata name="Role.Специалист" id="121144a1-c27a-410b-a7f2-c86001ba857b" configVersion="ce0426c4b55a3346b67b5deb29d9976800000000"/>
+		<Metadata name="Role.Специалист.Rights" id="121144a1-c27a-410b-a7f2-c86001ba857b.0" configVersion="fe1de16d682d97449b00288b6a19fc0500000000"/>
+		<Metadata name="Subsystem.Администрирование" id="8891bb2b-75f5-4a79-89b0-baa3f0f16866" configVersion="7c056c773c59264fb3747610dfbad57600000000"/>
+		<Metadata name="Subsystem.Выдача" id="0b5ac85c-ae4a-42a7-a31e-d2f49b3cbafe" configVersion="7c9610bf9df9374db3d36f76b168056d00000000"/>
+		<Metadata name="Subsystem.Отгрузка" id="23819502-c794-445c-9982-9a80d23b5a68" configVersion="13987f8afc6f374f9f053077384d6d4900000000"/>
+		<Metadata name="Subsystem.Приемка" id="b9bafb34-653b-4d8b-8ebf-202286b2d16f" configVersion="7af80e671c5a514dab739e02fcc7178a00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

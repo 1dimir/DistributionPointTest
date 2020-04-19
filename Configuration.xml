@@ -135,6 +135,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Приемка</Subsystem>
+			<Subsystem>Выдача</Subsystem>
+			<Subsystem>Отгрузка</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<Role>ПолныеПрава</Role>
 			<Role>Специалист</Role>
 			<Role>APIПланПоступления</Role>
@@ -151,6 +155,9 @@
 			<Document>ПланОтгрузки</Document>
 			<Document>Отгрузка</Document>
 			<Enum>СтатусыЗаказа</Enum>
+			<DataProcessor>Приемка</DataProcessor>
+			<DataProcessor>Выдача</DataProcessor>
+			<DataProcessor>Отгрузка</DataProcessor>
 			<InformationRegister>СтатусыЗаказа</InformationRegister>
 		</ChildObjects>
 	</Configuration>
