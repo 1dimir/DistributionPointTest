@@ -32,6 +32,11 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Специалист</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.APIВыдачаЗаказа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.API</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПланыПоступлений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗаказыКВыдаче</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗаказыКОтгрузке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">598e0436-34d2-44d6-80ef-c71d16000d07</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбработчикиРегламентныхЗаданий</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -146,7 +146,9 @@
 			<CommonModule>Интеграция</CommonModule>
 			<CommonModule>ИнтеграцияHTTP</CommonModule>
 			<CommonModule>ИнтеграцияJSON</CommonModule>
+			<CommonModule>ОбработчикиРегламентныхЗаданий</CommonModule>
 			<HTTPService>API</HTTPService>
+			<ScheduledJob>ОчиститьПланыПоступлений</ScheduledJob>
 			<Catalog>Заказ</Catalog>
 			<Document>ПланПоступления</Document>
 			<Document>Приемка</Document>
@@ -159,6 +161,9 @@
 			<DataProcessor>Выдача</DataProcessor>
 			<DataProcessor>Отгрузка</DataProcessor>
 			<InformationRegister>СтатусыЗаказа</InformationRegister>
+			<InformationRegister>ПланыПоступлений</InformationRegister>
+			<InformationRegister>ЗаказыКВыдаче</InformationRegister>
+			<InformationRegister>ЗаказыКОтгрузке</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -1,12 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПринять" id="50">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Принять</CommandName>
+				<ExtendedTooltip name="ФормаПринятьРасширеннаяПодсказка" id="51"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
-		<Table name="ЗаказыКПоступления" id="1">
+		<Table name="ЗаказыКПоступлению" id="1">
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<EnableStartDrag>true</EnableStartDrag>
-			<DataPath>ЗаказыКПоступления</DataPath>
-			<RowPictureDataPath>ЗаказыКПоступления.DefaultPicture</RowPictureDataPath>
+			<DataPath>ЗаказыКПоступлению</DataPath>
+			<RowPictureDataPath>ЗаказыКПоступлению.DefaultPicture</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -20,84 +32,68 @@
 			<ShowRoot>true</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
-			<ContextMenu name="ЗаказыКПоступленияКонтекстноеМеню" id="2"/>
-			<AutoCommandBar name="ЗаказыКПоступленияКоманднаяПанель" id="3"/>
-			<ExtendedTooltip name="ЗаказыКПоступленияРасширеннаяПодсказка" id="4"/>
-			<SearchStringAddition name="ЗаказыКПоступленияСтрокаПоиска" id="5">
+			<ContextMenu name="ЗаказыКПоступлениюКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ЗаказыКПоступлениюКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ЗаказыКПоступлениюРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ЗаказыКПоступлениюСтрокаПоиска" id="5">
 				<AdditionSource>
-					<Item>ЗаказыКПоступления</Item>
+					<Item>ЗаказыКПоступлению</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="ЗаказыКПоступленияСтрокаПоискаКонтекстноеМеню" id="6"/>
-				<ExtendedTooltip name="ЗаказыКПоступленияСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+				<ContextMenu name="ЗаказыКПоступлениюСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ЗаказыКПоступлениюСтрокаПоискаРасширеннаяПодсказка" id="7"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="ЗаказыКПоступленияСостояниеПросмотра" id="8">
+			<ViewStatusAddition name="ЗаказыКПоступлениюСостояниеПросмотра" id="8">
 				<AdditionSource>
-					<Item>ЗаказыКПоступления</Item>
+					<Item>ЗаказыКПоступлению</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="ЗаказыКПоступленияСостояниеПросмотраКонтекстноеМеню" id="9"/>
-				<ExtendedTooltip name="ЗаказыКПоступленияСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+				<ContextMenu name="ЗаказыКПоступлениюСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ЗаказыКПоступлениюСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="ЗаказыКПоступленияУправлениеПоиском" id="11">
+			<SearchControlAddition name="ЗаказыКПоступлениюУправлениеПоиском" id="11">
 				<AdditionSource>
-					<Item>ЗаказыКПоступления</Item>
+					<Item>ЗаказыКПоступлению</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="ЗаказыКПоступленияУправлениеПоискомКонтекстноеМеню" id="12"/>
-				<ExtendedTooltip name="ЗаказыКПоступленияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+				<ContextMenu name="ЗаказыКПоступлениюУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ЗаказыКПоступлениюУправлениеПоискомРасширеннаяПодсказка" id="13"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">ЗаказыКПоступлениюВыбор</Event>
+			</Events>
 			<ChildItems>
-				<LabelField name="ЗаказыКПоступленияДата" id="14">
-					<DataPath>ЗаказыКПоступления.Дата</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияДатаКонтекстноеМеню" id="15"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияДатаРасширеннаяПодсказка" id="16"/>
+				<LabelField name="ДатаПоступления" id="17">
+					<DataPath>ЗаказыКПоступлению.ДатаПоступления</DataPath>
+					<ContextMenu name="ДатаПоступленияКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ДатаПоступленияРасширеннаяПодсказка" id="19"/>
 				</LabelField>
-				<LabelField name="ЗаказыКПоступленияДатаПоступления" id="17">
-					<DataPath>ЗаказыКПоступления.ДатаПоступления</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияДатаПоступленияКонтекстноеМеню" id="18"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияДатаПоступленияРасширеннаяПодсказка" id="19"/>
+				<LabelField name="ЭкспедиторИмя" id="44">
+					<DataPath>ЗаказыКПоступлению.ЭкспедиторИмя</DataPath>
+					<ContextMenu name="ЭкспедиторИмяКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ЭкспедиторИмяРасширеннаяПодсказка" id="46"/>
 				</LabelField>
-				<LabelField name="ЗаказыКПоступленияЗаказ" id="20">
-					<DataPath>ЗаказыКПоступления.Заказ</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияЗаказКонтекстноеМеню" id="21"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияЗаказРасширеннаяПодсказка" id="22"/>
+				<LabelField name="ЭкспедиторАвто" id="41">
+					<DataPath>ЗаказыКПоступлению.ЭкспедиторАвто</DataPath>
+					<ContextMenu name="ЭкспедиторАвтоКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ЭкспедиторАвтоРасширеннаяПодсказка" id="43"/>
 				</LabelField>
-				<LabelField name="ЗаказыКПоступленияНомер" id="23">
-					<DataPath>ЗаказыКПоступления.Номер</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияНомерКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияНомерРасширеннаяПодсказка" id="25"/>
+				<LabelField name="ЭкспедиторТелефон" id="47">
+					<DataPath>ЗаказыКПоступлению.ЭкспедиторТелефон</DataPath>
+					<ContextMenu name="ЭкспедиторТелефонКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ЭкспедиторТелефонРасширеннаяПодсказка" id="49"/>
 				</LabelField>
-				<CheckBoxField name="ЗаказыКПоступленияПроведен" id="26">
-					<DataPath>ЗаказыКПоступления.Проведен</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ЗаказыКПоступленияПроведенКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияПроведенРасширеннаяПодсказка" id="28"/>
-				</CheckBoxField>
-				<LabelField name="ЗаказыКПоступленияСсылка" id="29">
-					<DataPath>ЗаказыКПоступления.Ссылка</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияСсылкаКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияСсылкаРасширеннаяПодсказка" id="31"/>
+				<LabelField name="Код" id="23">
+					<DataPath>ЗаказыКПоступлению.Код</DataPath>
+					<ContextMenu name="КодКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="25"/>
 				</LabelField>
-				<LabelField name="ЗаказыКПоступленияЭкспедиторАвто" id="32">
-					<DataPath>ЗаказыКПоступления.ЭкспедиторАвто</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияЭкспедиторАвтоКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияЭкспедиторАвтоРасширеннаяПодсказка" id="34"/>
-				</LabelField>
-				<LabelField name="ЗаказыКПоступленияЭкспедиторИмя" id="35">
-					<DataPath>ЗаказыКПоступления.ЭкспедиторИмя</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияЭкспедиторИмяКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияЭкспедиторИмяРасширеннаяПодсказка" id="37"/>
-				</LabelField>
-				<LabelField name="ЗаказыКПоступленияЭкспедиторТелефон" id="38">
-					<DataPath>ЗаказыКПоступления.ЭкспедиторТелефон</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияЭкспедиторТелефонКонтекстноеМеню" id="39"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияЭкспедиторТелефонРасширеннаяПодсказка" id="40"/>
-				</LabelField>
-				<LabelField name="ЗаказыКПоступленияСтандартнаяКартинка" id="41">
-					<DataPath>ЗаказыКПоступления.DefaultPicture</DataPath>
-					<ContextMenu name="ЗаказыКПоступленияСтандартнаяКартинкаКонтекстноеМеню" id="42"/>
-					<ExtendedTooltip name="ЗаказыКПоступленияСтандартнаяКартинкаРасширеннаяПодсказка" id="43"/>
+				<LabelField name="ПолучательИмя" id="29">
+					<DataPath>ЗаказыКПоступлению.ПолучательИмя</DataPath>
+					<ContextMenu name="ПолучательИмяКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПолучательИмяРасширеннаяПодсказка" id="31"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -107,21 +103,22 @@
 			<Type>
 				<v8:Type>cfg:DataProcessorObject.Приемка</v8:Type>
 			</Type>
-			<MainAttribute>true</MainAttribute>
 		</Attribute>
-		<Attribute name="ЗаказыКПоступления" id="2">
+		<Attribute name="ЗаказыКПоступлению" id="2">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Заказы к поступления</v8:content>
+					<v8:content>Заказы к поступлению</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
+			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>ЗаказыКПоступления.Заказ</Field>
-				<Field>ЗаказыКПоступления.Ссылка</Field>
+				<Field>ЗаказыКПоступлению.Заказ</Field>
+				<Field>ЗаказыКПоступлению.ЗаказВыбран</Field>
+				<Field>ЗаказыКПоступлению.Ссылка</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -135,17 +132,73 @@
 	ПланыПоступлений.ЭкспедиторИмя КАК ЭкспедиторИмя,
 	ПланыПоступлений.ЭкспедиторТелефон КАК ЭкспедиторТелефон,
 	ПланыПоступлений.ЭкспедиторАвто КАК ЭкспедиторАвто,
-	ТаблицаЗаказы.Заказ КАК Заказ
+	СправочникЗаказы.Ссылка КАК Заказ,
+	СправочникЗаказы.Код КАК Код,
+	СправочникЗаказы.ПолучательИмя КАК ПолучательИмя,
+	СправочникЗаказы.ПолучательТелефон КАК ПолучательТелефон,
+	СправочникЗаказы.Ссылка В (&amp;ВыбранныеЗаказы) КАК ЗаказВыбран
+{ВЫБРАТЬ
+	Ссылка.*,
+	Номер,
+	Дата,
+	Проведен,
+	ДатаПоступления,
+	ЭкспедиторИмя,
+	ЭкспедиторТелефон,
+	ЭкспедиторАвто,
+	Заказ.*,
+	Код,
+	ПолучательИмя,
+	ПолучательТелефон}
 ИЗ
-	Документ.ПланПоступления КАК ПланыПоступлений
-		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ПланПоступления.Заказы КАК ТаблицаЗаказы
-		ПО (ТаблицаЗаказы.Ссылка = ПланыПоступлений.Ссылка)</QueryText>
+	РегистрСведений.ПланыПоступлений КАК ОткрытыеПланыПоступлений
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПланПоступления КАК ПланыПоступлений
+		ПО (ПланыПоступлений.Ссылка = ОткрытыеПланыПоступлений.ПланПоступления)
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПланПоступления.Заказы КАК ТаблицаЗаказы
+		ПО (ТаблицаЗаказы.Ссылка = ОткрытыеПланыПоступлений.ПланПоступления)
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Заказ КАК СправочникЗаказы
+		ПО (СправочникЗаказы.Ссылка = ТаблицаЗаказы.Заказ)
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.СтатусыЗаказа.СрезПоследних(, ) КАК СтатусыЗаказов
+		ПО (СтатусыЗаказов.Заказ = ТаблицаЗаказы.Заказ)
+			И (СтатусыЗаказов.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаказа.ОжидаетсяПоступление))
+{ГДЕ
+	ПланыПоступлений.Ссылка.*,
+	ПланыПоступлений.Номер,
+	ПланыПоступлений.Дата,
+	ПланыПоступлений.Проведен,
+	ПланыПоступлений.ДатаПоступления,
+	ПланыПоступлений.ЭкспедиторИмя,
+	ПланыПоступлений.ЭкспедиторТелефон,
+	ПланыПоступлений.ЭкспедиторАвто,
+	СправочникЗаказы.Ссылка.*,
+	СправочникЗаказы.Код,
+	СправочникЗаказы.ПолучательИмя,
+	СправочникЗаказы.ПолучательТелефон}
+
+УПОРЯДОЧИТЬ ПО
+	Дата</QueryText>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ДатаПоступления</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ЭкспедиторАвто</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ЭкспедиторИмя</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>Код</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
 						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
@@ -158,5 +211,33 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
+		<Attribute name="ВыбранныеЗаказы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные заказы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="Принять" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Принять</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Принять</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Принять</Action>
+		</Command>
+	</Commands>
 </Form>
