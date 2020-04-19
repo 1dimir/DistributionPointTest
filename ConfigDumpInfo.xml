@@ -7,8 +7,8 @@
 		</Metadata>
 		<Metadata name="CommonModule.Интеграция" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f" configVersion="7b27340551896542a4fc1fe379cb514400000000"/>
 		<Metadata name="CommonModule.Интеграция.Module" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f.0" configVersion="d7909a4b5656f84284c6528f28d7dae900000000"/>
-		<Metadata name="CommonModule.ИнтеграцияHTTP" id="a1a7410d-c3f3-46c3-b658-626251ef9345" configVersion="8567d14a66669f4d81d468a822465a7600000000"/>
-		<Metadata name="CommonModule.ИнтеграцияHTTP.Module" id="a1a7410d-c3f3-46c3-b658-626251ef9345.0" configVersion="d51feef0734c5f44aa55b737bbec654600000000"/>
+		<Metadata name="CommonModule.ИнтеграцияHTTP" id="a1a7410d-c3f3-46c3-b658-626251ef9345" configVersion="d140e175d33d184d98a942dec60f815100000000"/>
+		<Metadata name="CommonModule.ИнтеграцияHTTP.Module" id="a1a7410d-c3f3-46c3-b658-626251ef9345.0" configVersion="7bb6a345e625d849a33f96a05af597ec00000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON" id="2b89cc80-dc3f-4b28-b482-745953e011a2" configVersion="830a875ca883c741a0c0a02cac1fe05400000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON.Module" id="2b89cc80-dc3f-4b28-b482-745953e011a2.0" configVersion="964ebb755efcd044826f46088ebb454500000000"/>
 		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="2ecf8d57c6ad7a40b15eeef6b6790a7f00000000"/>
@@ -60,7 +60,7 @@
 			<Metadata name="Enum.СтатусыЗаказа.EnumValue.КОтгрузке" id="893a5f9e-290d-4302-85fc-44c0eaa440d9"/>
 			<Metadata name="Enum.СтатусыЗаказа.EnumValue.Выдан" id="ea370735-89fb-4ed0-8096-385172d86c34"/>
 		</Metadata>
-		<Metadata name="HTTPService.API" id="1835a9d4-14f4-4550-b7bf-6d0854e33250" configVersion="5ed695b189f6b84eb62c5318da001ef500000000">
+		<Metadata name="HTTPService.API" id="1835a9d4-14f4-4550-b7bf-6d0854e33250" configVersion="1d982871b53f4343816fa6dc3e95192d00000000">
 			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления.Method.Обновить" id="134ca59f-03e6-40c3-b9a0-ceda9e592def"/>
 			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления" id="1a62939f-b356-4939-862b-1c1e2dc824f2"/>
 			<Metadata name="HTTPService.API.URLTemplate.ПланыПоступлений" id="3ad1f9b3-7795-49f9-bf30-2135491a2a0c"/>
@@ -69,7 +69,7 @@
 			<Metadata name="HTTPService.API.URLTemplate.ПланыПоступлений.Method.Добавить" id="a348df22-8e01-45f7-a521-23382953db5f"/>
 			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления.Method.Отменить" id="a864408d-b352-468e-9505-9e8a2511426c"/>
 		</Metadata>
-		<Metadata name="HTTPService.API.Module" id="1835a9d4-14f4-4550-b7bf-6d0854e33250.0" configVersion="fe6be9d4cca43648a91cf4d7bc2cf82000000000"/>
+		<Metadata name="HTTPService.API.Module" id="1835a9d4-14f4-4550-b7bf-6d0854e33250.0" configVersion="540504c8e432104d8f6bb13a8c44005700000000"/>
 		<Metadata name="InformationRegister.СтатусыЗаказа" id="fe30f679-8570-4e31-96d7-f81fe106a0a6" configVersion="6d50aff883c0c14c8ff46aa10d38a07800000000">
 			<Metadata name="InformationRegister.СтатусыЗаказа.Dimension.Заказ" id="3226dd58-47b1-476d-9d4d-5dc621021bca"/>
 			<Metadata name="InformationRegister.СтатусыЗаказа.Resource.Статус" id="97d11ab5-63e0-4faa-bc12-dfb9a2f045fb"/>
