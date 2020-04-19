@@ -7,6 +7,11 @@
 				<CommandName>Form.Command.Выдать</CommandName>
 				<ExtendedTooltip name="ФормаВыдатьРасширеннаяПодсказка" id="51"/>
 			</Button>
+			<Button name="ФормаПолученаОплата" id="89">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПолученаОплата</CommandName>
+				<ExtendedTooltip name="ФормаПолученаОплатаРасширеннаяПодсказка" id="90"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -65,11 +70,6 @@
 				<Event name="Selection">ЗаказыКВыдачеВыбор</Event>
 			</Events>
 			<ChildItems>
-				<LabelField name="ДатаПриемки" id="65">
-					<DataPath>ЗаказыКВыдаче.ДатаПриемки</DataPath>
-					<ContextMenu name="ДатаПриемкиКонтекстноеМеню" id="66"/>
-					<ExtendedTooltip name="ДатаПриемкиРасширеннаяПодсказка" id="67"/>
-				</LabelField>
 				<LabelField name="НомерЗаказа" id="74">
 					<DataPath>ЗаказыКВыдаче.НомерЗаказа</DataPath>
 					<ContextMenu name="НомерЗаказаКонтекстноеМеню" id="75"/>
@@ -85,10 +85,27 @@
 					<ContextMenu name="ПолучательТелефонКонтекстноеМеню" id="81"/>
 					<ExtendedTooltip name="ПолучательТелефонРасширеннаяПодсказка" id="82"/>
 				</LabelField>
-				<LabelField name="СтандартнаяКартинка" id="83">
-					<DataPath>ЗаказыКВыдаче.DefaultPicture</DataPath>
-					<ContextMenu name="СтандартнаяКартинкаКонтекстноеМеню" id="84"/>
-					<ExtendedTooltip name="СтандартнаяКартинкаРасширеннаяПодсказка" id="85"/>
+				<CheckBoxField name="ЗаказОплачен" id="86">
+					<DataPath>ЗаказыКВыдаче.ЗаказОплачен</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Оплачен</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ЗаказОплаченКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="ЗаказОплаченРасширеннаяПодсказка" id="88"/>
+				</CheckBoxField>
+				<LabelField name="Сумма" id="91">
+					<DataPath>ЗаказыКВыдаче.Сумма</DataPath>
+					<ContextMenu name="СуммаКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="93"/>
+				</LabelField>
+				<LabelField name="ДатаПриемки" id="65">
+					<DataPath>ЗаказыКВыдаче.ДатаПриемки</DataPath>
+					<ContextMenu name="ДатаПриемкиКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="ДатаПриемкиРасширеннаяПодсказка" id="67"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
@@ -114,6 +131,8 @@
 				<Field>~ЗаказыКВыдаче.Ссылка</Field>
 				<Field>ЗаказыКВыдаче.Заказ</Field>
 				<Field>ЗаказыКВыдаче.ЗаказВыбран</Field>
+				<Field>ЗаказыКВыдаче.ЗаказОплачен</Field>
+				<Field>ЗаказыКВыдаче.Сумма</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -124,7 +143,17 @@
 	СправочникЗаказы.Ссылка В (&amp;ВыбранныеЗаказы) КАК ЗаказВыбран,
 	СправочникЗаказы.Код КАК НомерЗаказа,
 	СправочникЗаказы.ПолучательИмя КАК ПолучательИмя,
-	СправочникЗаказы.ПолучательТелефон КАК ПолучательТелефон
+	СправочникЗаказы.ПолучательТелефон КАК ПолучательТелефон,
+	СправочникЗаказы.ПолученаПредоплата
+		ИЛИ ИСТИНА В
+			(ВЫБРАТЬ ПЕРВЫЕ 1
+				ИСТИНА
+			ИЗ
+				Документ.ОплатаЗаказа КАК ДокументОплаты
+			ГДЕ
+				ДокументОплаты.Заказ = ЗаказыКВыдаче.Заказ
+				И ДокументОплаты.Проведен) КАК ЗаказОплачен,
+	СправочникЗаказы.Сумма КАК Сумма
 ИЗ
 	РегистрСведений.ЗаказыКВыдаче КАК ЗаказыКВыдаче
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.СтатусыЗаказа.СрезПоследних(, ) КАК СтатусыЗаказов
@@ -177,10 +206,25 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Выдать</v8:content>
+					<v8:content>Для выдачи нужно выбрать нужные заказы в списке</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>Выдать</Action>
+		</Command>
+		<Command name="ПолученаОплата" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получена оплата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получена оплата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НачатьПолучениеОплаты</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -156,6 +156,7 @@
 			<Document>Отказ</Document>
 			<Document>ПланОтгрузки</Document>
 			<Document>Отгрузка</Document>
+			<Document>ОплатаЗаказа</Document>
 			<Enum>СтатусыЗаказа</Enum>
 			<DataProcessor>Приемка</DataProcessor>
 			<DataProcessor>Выдача</DataProcessor>
