@@ -9,8 +9,8 @@
 		</Metadata>
 		<Metadata name="CommonModule.Интеграция" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f" configVersion="a1c76318ec3ab248845b556cacafdb2f00000000"/>
 		<Metadata name="CommonModule.Интеграция.Module" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f.0" configVersion="1d7decb8f2fa6245a62cae8f3dbd3a8400000000"/>
-		<Metadata name="CommonModule.ИнтеграцияHTTP" id="a1a7410d-c3f3-46c3-b658-626251ef9345" configVersion="d140e175d33d184d98a942dec60f815100000000"/>
-		<Metadata name="CommonModule.ИнтеграцияHTTP.Module" id="a1a7410d-c3f3-46c3-b658-626251ef9345.0" configVersion="7bb6a345e625d849a33f96a05af597ec00000000"/>
+		<Metadata name="CommonModule.ИнтеграцияHTTP" id="a1a7410d-c3f3-46c3-b658-626251ef9345" configVersion="0901417e10b0cc408fde6c404580c86200000000"/>
+		<Metadata name="CommonModule.ИнтеграцияHTTP.Module" id="a1a7410d-c3f3-46c3-b658-626251ef9345.0" configVersion="f5cebf2258dd1d49b1ca504c357d146200000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON" id="2b89cc80-dc3f-4b28-b482-745953e011a2" configVersion="830a875ca883c741a0c0a02cac1fe05400000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON.Module" id="2b89cc80-dc3f-4b28-b482-745953e011a2.0" configVersion="964ebb755efcd044826f46088ebb454500000000"/>
 		<Metadata name="CommonModule.ОбработчикиРегламентныхЗаданий" id="633aac00-290f-42c4-9f7d-6ac095480eba" configVersion="88a8bf50818aa04688b94d7b0eb6cecd00000000"/>
