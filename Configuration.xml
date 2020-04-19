@@ -135,6 +135,12 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Role>ПолныеПрава</Role>
+			<Role>Специалист</Role>
+			<Role>APIПланПоступления</Role>
+			<Role>APIВыдачаЗаказа</Role>
+			<CommonModule>Интеграция</CommonModule>
+			<HTTPService>API</HTTPService>
 			<Catalog>Заказ</Catalog>
 			<Document>ПланПоступления</Document>
 		</ChildObjects>
