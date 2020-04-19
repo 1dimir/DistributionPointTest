@@ -135,6 +135,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Catalog>Заказ</Catalog>
+			<Document>ПланПоступления</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.5">
 	<ConfigVersions>
-		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="8ca5112bff82be41af9ed4fead14519800000000"/>
+		<Metadata name="Catalog.Заказ" id="369768fa-69ff-4c0a-8c47-99b89faa5701" configVersion="5b42fb3b571cdf4883e7b0bed6258e9e00000000">
+			<Metadata name="Catalog.Заказ.Attribute.ПолучательТелефон" id="3ef1358f-1478-42dc-a0c9-5f39cce77a51"/>
+			<Metadata name="Catalog.Заказ.Attribute.ПолучательИмя" id="ddb8aacf-df13-4ba5-baf6-e60cf62385a0"/>
+		</Metadata>
+		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="20870730b4003c438dfca9e00363bc9100000000"/>
+		<Metadata name="Document.ПланПоступления" id="57f62e0f-4f21-4a5d-b0cc-bb5a3cb8a819" configVersion="071d4ef2b66fd74a8c49db53a8bd764f00000000">
+			<Metadata name="Document.ПланПоступления.Attribute.ЭкспедиторИмя" id="188ba8b5-f472-449e-8bc0-52a387ebafd2"/>
+			<Metadata name="Document.ПланПоступления.Attribute.ДатаПоступления" id="53d80813-e18f-4db0-a632-b25ef4c469e5"/>
+			<Metadata name="Document.ПланПоступления.Attribute.ЭкспедиторАвто" id="8137c317-66b5-4781-8084-12258098d762"/>
+			<Metadata name="Document.ПланПоступления.TabularSection.Заказы" id="e92b4557-1374-45a1-a289-4a29be203cba"/>
+			<Metadata name="Document.ПланПоступления.TabularSection.Заказы.Attribute.Заказ" id="ef09960d-b91f-407d-a0e7-a4ae351e1cca"/>
+			<Metadata name="Document.ПланПоступления.Attribute.ЭкспедиторТелефон" id="fccffaa0-5763-4c99-b787-b8cc0fa74ea5"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="6fc34d73-f81d-4323-9abf-a0a4cf3aadfe" configVersion="6a147610a9460b4a9290ef39da42262d00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
