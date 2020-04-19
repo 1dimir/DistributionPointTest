@@ -21,15 +21,15 @@
 			<Metadata name="DataProcessor.Выдача.Command.Выдача" id="8a412da4-356c-43fd-be4b-86373db79e97"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Выдача.Command.Выдача.CommandModule" id="8a412da4-356c-43fd-be4b-86373db79e97.2" configVersion="f9d972b0e31ed84a85c1f6357b153bb200000000"/>
-		<Metadata name="DataProcessor.Выдача.Form.Форма" id="3b59a7d3-c189-4526-8121-52392a457b59" configVersion="77a2ffe3f046d043b8e3594b25cbb6fe00000000"/>
-		<Metadata name="DataProcessor.Выдача.Form.Форма.Form" id="3b59a7d3-c189-4526-8121-52392a457b59.0" configVersion="53dccc8755073048ba51c51d7efaba3a00000000"/>
+		<Metadata name="DataProcessor.Выдача.Form.Форма" id="3b59a7d3-c189-4526-8121-52392a457b59" configVersion="6cdfa3b971f2524cb07b9259835a8f9b00000000"/>
+		<Metadata name="DataProcessor.Выдача.Form.Форма.Form" id="3b59a7d3-c189-4526-8121-52392a457b59.0" configVersion="3283995a1204954cadbc57bef7d7ddc700000000"/>
 		<Metadata name="DataProcessor.Отгрузка" id="b12920b0-3109-47cc-8650-7e79764f3820" configVersion="ef6abc7a193c0a4f8de72d6795185c0600000000"/>
 		<Metadata name="DataProcessor.Приемка" id="8c97de3c-a355-4ff0-9127-29c10e7029f8" configVersion="e21b7ece149c114c93877664f87e646900000000">
 			<Metadata name="DataProcessor.Приемка.Command.Приемка" id="67b68d33-0ce5-43cc-9976-39d4f9839864"/>
 		</Metadata>
 		<Metadata name="DataProcessor.Приемка.Command.Приемка.CommandModule" id="67b68d33-0ce5-43cc-9976-39d4f9839864.2" configVersion="bc3583230f154246aacdbb9792d9741800000000"/>
-		<Metadata name="DataProcessor.Приемка.Form.Форма" id="a39e1629-2138-4fc4-8ab9-1436b7619837" configVersion="b01122b9d354c24091ffcebe68ac31c800000000"/>
-		<Metadata name="DataProcessor.Приемка.Form.Форма.Form" id="a39e1629-2138-4fc4-8ab9-1436b7619837.0" configVersion="ec46b05361793443a5fd0fea9b55bde400000000"/>
+		<Metadata name="DataProcessor.Приемка.Form.Форма" id="a39e1629-2138-4fc4-8ab9-1436b7619837" configVersion="0644786a73fb9c4d867860db9c309fe900000000"/>
+		<Metadata name="DataProcessor.Приемка.Form.Форма.Form" id="a39e1629-2138-4fc4-8ab9-1436b7619837.0" configVersion="18f142da8830ff42b429499cda192e4300000000"/>
 		<Metadata name="Document.Выдача" id="0eb1590e-0e69-4227-93fc-c8be7039d68a" configVersion="e0196fa700dc474caeee349a298b307700000000">
 			<Metadata name="Document.Выдача.TabularSection.Заказы" id="0a38622b-6072-49b4-b623-7e20589e170a"/>
 			<Metadata name="Document.Выдача.TabularSection.Заказы.Attribute.Заказ" id="67e17c56-f1d1-4c72-b553-1f148e1db8e2"/>
