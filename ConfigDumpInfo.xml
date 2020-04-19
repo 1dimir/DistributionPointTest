@@ -5,13 +5,14 @@
 			<Metadata name="Catalog.Заказ.Attribute.ПолучательТелефон" id="3ef1358f-1478-42dc-a0c9-5f39cce77a51"/>
 			<Metadata name="Catalog.Заказ.Attribute.ПолучательИмя" id="ddb8aacf-df13-4ba5-baf6-e60cf62385a0"/>
 		</Metadata>
-		<Metadata name="CommonModule.Интеграция" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f" configVersion="42d53a002cec364993d0234fb6d47ff200000000"/>
+		<Metadata name="CommonModule.Интеграция" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f" configVersion="90f8641ec341844787f79409e93b59f400000000"/>
+		<Metadata name="CommonModule.Интеграция.Module" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f.0" configVersion="1d91066fbe3d0a4f92226fd9774c20a100000000"/>
 		<Metadata name="CommonModule.ИнтеграцияHTTP" id="a1a7410d-c3f3-46c3-b658-626251ef9345" configVersion="3586ce4d3e16794cae852984f7406e3400000000"/>
 		<Metadata name="CommonModule.ИнтеграцияHTTP.Module" id="a1a7410d-c3f3-46c3-b658-626251ef9345.0" configVersion="29b8100c65dcdd44b4b7414e2586074500000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON" id="2b89cc80-dc3f-4b28-b482-745953e011a2" configVersion="830a875ca883c741a0c0a02cac1fe05400000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON.Module" id="2b89cc80-dc3f-4b28-b482-745953e011a2.0" configVersion="964ebb755efcd044826f46088ebb454500000000"/>
 		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="b9f214a1dd8a6345b1cd9f9037e11c2100000000"/>
-		<Metadata name="Document.ПланПоступления" id="57f62e0f-4f21-4a5d-b0cc-bb5a3cb8a819" configVersion="071d4ef2b66fd74a8c49db53a8bd764f00000000">
+		<Metadata name="Document.ПланПоступления" id="57f62e0f-4f21-4a5d-b0cc-bb5a3cb8a819" configVersion="564129986c5ac748baf67a3cea69103300000000">
 			<Metadata name="Document.ПланПоступления.Attribute.ЭкспедиторИмя" id="188ba8b5-f472-449e-8bc0-52a387ebafd2"/>
 			<Metadata name="Document.ПланПоступления.Attribute.ДатаПоступления" id="53d80813-e18f-4db0-a632-b25ef4c469e5"/>
 			<Metadata name="Document.ПланПоступления.Attribute.ЭкспедиторАвто" id="8137c317-66b5-4781-8084-12258098d762"/>
@@ -19,6 +20,7 @@
 			<Metadata name="Document.ПланПоступления.TabularSection.Заказы.Attribute.Заказ" id="ef09960d-b91f-407d-a0e7-a4ae351e1cca"/>
 			<Metadata name="Document.ПланПоступления.Attribute.ЭкспедиторТелефон" id="fccffaa0-5763-4c99-b787-b8cc0fa74ea5"/>
 		</Metadata>
+		<Metadata name="Document.ПланПоступления.ManagerModule" id="57f62e0f-4f21-4a5d-b0cc-bb5a3cb8a819.2" configVersion="6e795407c4fefe4798e3f07368357b9800000000"/>
 		<Metadata name="HTTPService.API" id="1835a9d4-14f4-4550-b7bf-6d0854e33250" configVersion="21aa97a71767e649ac0f279cb7d7e32900000000">
 			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления.Method.Обновить" id="134ca59f-03e6-40c3-b9a0-ceda9e592def"/>
 			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления" id="1a62939f-b356-4939-862b-1c1e2dc824f2"/>
