@@ -4,21 +4,7 @@
 	<setForAttributesByDefault>false</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>HTTPService.API.URLTemplate.ПланПоступления.Method.Удалить</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>HTTPService.API.URLTemplate.ПланПоступления.Method.Добавить</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>HTTPService.API.URLTemplate.ПланПоступления.Method.Обновить</name>
+		<name>HTTPService.API.URLTemplate.ПланыПоступлений.Method.Добавить</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

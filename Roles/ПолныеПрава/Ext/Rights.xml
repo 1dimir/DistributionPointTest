@@ -1,8 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.5">
 	<setForNewObjects>false</setForNewObjects>
-	<setForAttributesByDefault>false</setForAttributesByDefault>
+	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<object>
+		<name>HTTPService.API.URLTemplate.ПланПоступления.Method.Обновить</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
 	<object>
 		<name>Catalog.Заказ</name>
 		<right>
@@ -225,21 +232,14 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.API.URLTemplate.ПланПоступления.Method.Удалить</name>
+		<name>HTTPService.API.URLTemplate.ПланыПоступлений.Method.Добавить</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.API.URLTemplate.ПланПоступления.Method.Добавить</name>
-		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>HTTPService.API.URLTemplate.ПланПоступления.Method.Обновить</name>
+		<name>HTTPService.API.URLTemplate.ПланПоступления.Method.Отменить</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

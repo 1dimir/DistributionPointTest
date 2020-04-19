@@ -19,22 +19,23 @@
 			<Metadata name="Document.ПланПоступления.TabularSection.Заказы.Attribute.Заказ" id="ef09960d-b91f-407d-a0e7-a4ae351e1cca"/>
 			<Metadata name="Document.ПланПоступления.Attribute.ЭкспедиторТелефон" id="fccffaa0-5763-4c99-b787-b8cc0fa74ea5"/>
 		</Metadata>
-		<Metadata name="HTTPService.API" id="1835a9d4-14f4-4550-b7bf-6d0854e33250" configVersion="7211eddaa6b6a24096ed648f0c4c6b9c00000000">
-			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления" id="3ad1f9b3-7795-49f9-bf30-2135491a2a0c"/>
+		<Metadata name="HTTPService.API" id="1835a9d4-14f4-4550-b7bf-6d0854e33250" configVersion="21aa97a71767e649ac0f279cb7d7e32900000000">
+			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления.Method.Обновить" id="134ca59f-03e6-40c3-b9a0-ceda9e592def"/>
+			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления" id="1a62939f-b356-4939-862b-1c1e2dc824f2"/>
+			<Metadata name="HTTPService.API.URLTemplate.ПланыПоступлений" id="3ad1f9b3-7795-49f9-bf30-2135491a2a0c"/>
 			<Metadata name="HTTPService.API.URLTemplate.ВыдачаЗаказа" id="51588638-5ef5-46d1-8af5-27785742b9d1"/>
 			<Metadata name="HTTPService.API.URLTemplate.ВыдачаЗаказа.Method.Готов" id="5491f107-e94a-48dc-b622-94d936659936"/>
-			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления.Method.Удалить" id="93536c2c-e68f-49cc-9f6f-6b564c0ae281"/>
-			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления.Method.Добавить" id="a348df22-8e01-45f7-a521-23382953db5f"/>
-			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления.Method.Обновить" id="ac61a7fb-dcdd-4cf2-a378-adfaca991aea"/>
+			<Metadata name="HTTPService.API.URLTemplate.ПланыПоступлений.Method.Добавить" id="a348df22-8e01-45f7-a521-23382953db5f"/>
+			<Metadata name="HTTPService.API.URLTemplate.ПланПоступления.Method.Отменить" id="a864408d-b352-468e-9505-9e8a2511426c"/>
 		</Metadata>
-		<Metadata name="HTTPService.API.Module" id="1835a9d4-14f4-4550-b7bf-6d0854e33250.0" configVersion="c31e7adcd3d8cd40a795a49c4fcddb0600000000"/>
+		<Metadata name="HTTPService.API.Module" id="1835a9d4-14f4-4550-b7bf-6d0854e33250.0" configVersion="5dde420c797522408531d1fdf2df86d000000000"/>
 		<Metadata name="Language.Русский" id="6fc34d73-f81d-4323-9abf-a0a4cf3aadfe" configVersion="6a147610a9460b4a9290ef39da42262d00000000"/>
 		<Metadata name="Role.APIВыдачаЗаказа" id="687cb2ae-60c7-4017-ad25-439d1041bee4" configVersion="ed5c7a40c0349546b70220e4032cf32700000000"/>
 		<Metadata name="Role.APIВыдачаЗаказа.Rights" id="687cb2ae-60c7-4017-ad25-439d1041bee4.0" configVersion="4f9e06b13b59c44c953605d12f65df5500000000"/>
 		<Metadata name="Role.APIПланПоступления" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245" configVersion="0f2c75bf1e3e4b41ac5a70aacd9f217700000000"/>
 		<Metadata name="Role.APIПланПоступления.Rights" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245.0" configVersion="41e49fb0e82c4a46be2e15e338969c9600000000"/>
-		<Metadata name="Role.ПолныеПрава" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3" configVersion="64bb766635c6fb4ba79977c98e59a37a00000000"/>
-		<Metadata name="Role.ПолныеПрава.Rights" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3.0" configVersion="62c3012c96dab24f841953cf20726ca900000000"/>
+		<Metadata name="Role.ПолныеПрава" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3" configVersion="59717440e32eeb488e601484f0ee0c8600000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3.0" configVersion="85e447784bf28743b7ad5139d73252eb00000000"/>
 		<Metadata name="Role.Специалист" id="121144a1-c27a-410b-a7f2-c86001ba857b" configVersion="075962af6037ca4ca659d3b2dbf6cccb00000000"/>
 		<Metadata name="Role.Специалист.Rights" id="121144a1-c27a-410b-a7f2-c86001ba857b.0" configVersion="e0d45e2d3f7b974fb79aa68df0b24dd200000000"/>
 	</ConfigVersions>

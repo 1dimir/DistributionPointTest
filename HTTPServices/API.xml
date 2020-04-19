@@ -17,11 +17,11 @@
 		<ChildObjects>
 			<URLTemplate uuid="3ad1f9b3-7795-49f9-bf30-2135491a2a0c">
 				<Properties>
-					<Name>ПланПоступления</Name>
+					<Name>ПланыПоступлений</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>План поступления</v8:content>
+							<v8:content>Планы поступлений</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -42,7 +42,36 @@
 							<Handler>ПланПоступленияДобавить</Handler>
 						</Properties>
 					</Method>
-					<Method uuid="ac61a7fb-dcdd-4cf2-a378-adfaca991aea">
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="1a62939f-b356-4939-862b-1c1e2dc824f2">
+				<Properties>
+					<Name>ПланПоступления</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План поступления</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/point/shipment_plan/{plan_code}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="a864408d-b352-468e-9505-9e8a2511426c">
+						<Properties>
+							<Name>Отменить</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отменить</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>DELETE</HTTPMethod>
+							<Handler>ПланПоступленияОтменить</Handler>
+						</Properties>
+					</Method>
+					<Method uuid="134ca59f-03e6-40c3-b9a0-ceda9e592def">
 						<Properties>
 							<Name>Обновить</Name>
 							<Synonym>
@@ -54,20 +83,6 @@
 							<Comment/>
 							<HTTPMethod>PUT</HTTPMethod>
 							<Handler>ПланПоступленияОбновить</Handler>
-						</Properties>
-					</Method>
-					<Method uuid="93536c2c-e68f-49cc-9f6f-6b564c0ae281">
-						<Properties>
-							<Name>Удалить</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Удалить</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<HTTPMethod>DELETE</HTTPMethod>
-							<Handler>ПланПоступленияУдалить</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>
