@@ -145,6 +145,13 @@
 			<HTTPService>API</HTTPService>
 			<Catalog>Заказ</Catalog>
 			<Document>ПланПоступления</Document>
+			<Document>Приемка</Document>
+			<Document>Выдача</Document>
+			<Document>Отказ</Document>
+			<Document>ПланОтгрузки</Document>
+			<Document>Отгрузка</Document>
+			<Enum>СтатусыЗаказа</Enum>
+			<InformationRegister>СтатусыЗаказа</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
