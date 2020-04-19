@@ -6,7 +6,11 @@
 			<Metadata name="Catalog.Заказ.Attribute.ПолучательИмя" id="ddb8aacf-df13-4ba5-baf6-e60cf62385a0"/>
 		</Metadata>
 		<Metadata name="CommonModule.Интеграция" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f" configVersion="42d53a002cec364993d0234fb6d47ff200000000"/>
-		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="5f38d8e0dbe51e45bc41dc21225d6bd800000000"/>
+		<Metadata name="CommonModule.ИнтеграцияHTTP" id="a1a7410d-c3f3-46c3-b658-626251ef9345" configVersion="3586ce4d3e16794cae852984f7406e3400000000"/>
+		<Metadata name="CommonModule.ИнтеграцияHTTP.Module" id="a1a7410d-c3f3-46c3-b658-626251ef9345.0" configVersion="29b8100c65dcdd44b4b7414e2586074500000000"/>
+		<Metadata name="CommonModule.ИнтеграцияJSON" id="2b89cc80-dc3f-4b28-b482-745953e011a2" configVersion="830a875ca883c741a0c0a02cac1fe05400000000"/>
+		<Metadata name="CommonModule.ИнтеграцияJSON.Module" id="2b89cc80-dc3f-4b28-b482-745953e011a2.0" configVersion="964ebb755efcd044826f46088ebb454500000000"/>
+		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="b9f214a1dd8a6345b1cd9f9037e11c2100000000"/>
 		<Metadata name="Document.ПланПоступления" id="57f62e0f-4f21-4a5d-b0cc-bb5a3cb8a819" configVersion="071d4ef2b66fd74a8c49db53a8bd764f00000000">
 			<Metadata name="Document.ПланПоступления.Attribute.ЭкспедиторИмя" id="188ba8b5-f472-449e-8bc0-52a387ebafd2"/>
 			<Metadata name="Document.ПланПоступления.Attribute.ДатаПоступления" id="53d80813-e18f-4db0-a632-b25ef4c469e5"/>

@@ -140,6 +140,8 @@
 			<Role>APIПланПоступления</Role>
 			<Role>APIВыдачаЗаказа</Role>
 			<CommonModule>Интеграция</CommonModule>
+			<CommonModule>ИнтеграцияHTTP</CommonModule>
+			<CommonModule>ИнтеграцияJSON</CommonModule>
 			<HTTPService>API</HTTPService>
 			<Catalog>Заказ</Catalog>
 			<Document>ПланПоступления</Document>
