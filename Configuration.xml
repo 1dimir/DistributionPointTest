@@ -28,8 +28,13 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>ПунктВыдачиЗаказов</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пункт выдачи заказов</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_11</ConfigurationExtensionCompatibilityMode>
@@ -39,8 +44,8 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor/>
-			<Version/>
+			<Vendor>Dmitry Sorokin</Vendor>
+			<Version>1.0.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
