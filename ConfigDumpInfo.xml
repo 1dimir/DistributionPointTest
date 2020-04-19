@@ -81,7 +81,7 @@
 		<Metadata name="Role.APIПланПоступления.Rights" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245.0" configVersion="41e49fb0e82c4a46be2e15e338969c9600000000"/>
 		<Metadata name="Role.ПолныеПрава" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3" configVersion="d86cc10054b02043a84fbfe4f55db70a00000000"/>
 		<Metadata name="Role.ПолныеПрава.Rights" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3.0" configVersion="231c0cd17541484c8592e3c1d8f6044700000000"/>
-		<Metadata name="Role.Специалист" id="121144a1-c27a-410b-a7f2-c86001ba857b" configVersion="075962af6037ca4ca659d3b2dbf6cccb00000000"/>
-		<Metadata name="Role.Специалист.Rights" id="121144a1-c27a-410b-a7f2-c86001ba857b.0" configVersion="e0d45e2d3f7b974fb79aa68df0b24dd200000000"/>
+		<Metadata name="Role.Специалист" id="121144a1-c27a-410b-a7f2-c86001ba857b" configVersion="6b5ac6977a2fce4e9f8d960209f52e5b00000000"/>
+		<Metadata name="Role.Специалист.Rights" id="121144a1-c27a-410b-a7f2-c86001ba857b.0" configVersion="265e46e3b687964d8b57b146c53cf98600000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
