@@ -7,8 +7,8 @@
 			<Metadata name="Catalog.Заказ.Attribute.Сумма" id="6097c921-e07c-4d1e-8f25-04240604148b"/>
 			<Metadata name="Catalog.Заказ.Attribute.ПолучательИмя" id="ddb8aacf-df13-4ba5-baf6-e60cf62385a0"/>
 		</Metadata>
-		<Metadata name="CommonModule.Интеграция" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f" configVersion="6c044eded0302642a1032a085865747200000000"/>
-		<Metadata name="CommonModule.Интеграция.Module" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f.0" configVersion="0bee3c98205a9f4f9dd83c473a5e87ee00000000"/>
+		<Metadata name="CommonModule.Интеграция" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f" configVersion="a1c76318ec3ab248845b556cacafdb2f00000000"/>
+		<Metadata name="CommonModule.Интеграция.Module" id="e5335adb-efbf-49ca-bba0-bbd57fb6ff3f.0" configVersion="1d7decb8f2fa6245a62cae8f3dbd3a8400000000"/>
 		<Metadata name="CommonModule.ИнтеграцияHTTP" id="a1a7410d-c3f3-46c3-b658-626251ef9345" configVersion="d140e175d33d184d98a942dec60f815100000000"/>
 		<Metadata name="CommonModule.ИнтеграцияHTTP.Module" id="a1a7410d-c3f3-46c3-b658-626251ef9345.0" configVersion="7bb6a345e625d849a33f96a05af597ec00000000"/>
 		<Metadata name="CommonModule.ИнтеграцияJSON" id="2b89cc80-dc3f-4b28-b482-745953e011a2" configVersion="830a875ca883c741a0c0a02cac1fe05400000000"/>
