@@ -110,8 +110,8 @@
 		<Metadata name="Language.Русский" id="6fc34d73-f81d-4323-9abf-a0a4cf3aadfe" configVersion="6a147610a9460b4a9290ef39da42262d00000000"/>
 		<Metadata name="Role.APIВыдачаЗаказа" id="687cb2ae-60c7-4017-ad25-439d1041bee4" configVersion="ed5c7a40c0349546b70220e4032cf32700000000"/>
 		<Metadata name="Role.APIВыдачаЗаказа.Rights" id="687cb2ae-60c7-4017-ad25-439d1041bee4.0" configVersion="4f9e06b13b59c44c953605d12f65df5500000000"/>
-		<Metadata name="Role.APIПланПоступления" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245" configVersion="0f2c75bf1e3e4b41ac5a70aacd9f217700000000"/>
-		<Metadata name="Role.APIПланПоступления.Rights" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245.0" configVersion="41e49fb0e82c4a46be2e15e338969c9600000000"/>
+		<Metadata name="Role.APIПланПоступления" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245" configVersion="2df942c2b798a1488e64e3512833019b00000000"/>
+		<Metadata name="Role.APIПланПоступления.Rights" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245.0" configVersion="6197d59f8504794c93d86b0975a8136400000000"/>
 		<Metadata name="Role.ПолныеПрава" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3" configVersion="d86cc10054b02043a84fbfe4f55db70a00000000"/>
 		<Metadata name="Role.ПолныеПрава.Rights" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3.0" configVersion="231c0cd17541484c8592e3c1d8f6044700000000"/>
 		<Metadata name="Role.Специалист" id="121144a1-c27a-410b-a7f2-c86001ba857b" configVersion="683beaf437fed94486ff05b19be6592e00000000"/>
