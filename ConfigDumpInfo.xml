@@ -13,10 +13,14 @@
 		<Metadata name="CommonModule.ИнтеграцияJSON.Module" id="2b89cc80-dc3f-4b28-b482-745953e011a2.0" configVersion="964ebb755efcd044826f46088ebb454500000000"/>
 		<Metadata name="CommonModule.ОбработчикиРегламентныхЗаданий" id="633aac00-290f-42c4-9f7d-6ac095480eba" configVersion="88a8bf50818aa04688b94d7b0eb6cecd00000000"/>
 		<Metadata name="CommonModule.ОбработчикиРегламентныхЗаданий.Module" id="633aac00-290f-42c4-9f7d-6ac095480eba.0" configVersion="fe3dcdbb7c86c54594514c6b5fbc958800000000"/>
-		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="f91d73ee1edc3a43a51133f88be6058200000000"/>
+		<Metadata name="Configuration.ПунктВыдачиЗаказов" id="d9167d18-3fc5-46ca-9435-6922a7623295" configVersion="4138d75b380b9c46a8742ec4d700e11400000000"/>
+		<Metadata name="Configuration.ПунктВыдачиЗаказов.HomePageWorkArea" id="47b750b4-4146-4657-b0b6-cdd4002a62a5.8" configVersion="ce11261704933f4d8a118183656ed08700000000"/>
 		<Metadata name="DataProcessor.Выдача" id="befdd0a5-0d50-46a9-9d48-bc3b9e820ea9" configVersion="a0b088c6e1040a468407e149bdb6a70c00000000"/>
 		<Metadata name="DataProcessor.Отгрузка" id="b12920b0-3109-47cc-8650-7e79764f3820" configVersion="ef6abc7a193c0a4f8de72d6795185c0600000000"/>
-		<Metadata name="DataProcessor.Приемка" id="8c97de3c-a355-4ff0-9127-29c10e7029f8" configVersion="0908d36c848b214e8f6e6511ffab484300000000"/>
+		<Metadata name="DataProcessor.Приемка" id="8c97de3c-a355-4ff0-9127-29c10e7029f8" configVersion="e21b7ece149c114c93877664f87e646900000000">
+			<Metadata name="DataProcessor.Приемка.Command.Приемка" id="67b68d33-0ce5-43cc-9976-39d4f9839864"/>
+		</Metadata>
+		<Metadata name="DataProcessor.Приемка.Command.Приемка.CommandModule" id="67b68d33-0ce5-43cc-9976-39d4f9839864.2" configVersion="bc3583230f154246aacdbb9792d9741800000000"/>
 		<Metadata name="DataProcessor.Приемка.Form.Форма" id="a39e1629-2138-4fc4-8ab9-1436b7619837" configVersion="b01122b9d354c24091ffcebe68ac31c800000000"/>
 		<Metadata name="DataProcessor.Приемка.Form.Форма.Form" id="a39e1629-2138-4fc4-8ab9-1436b7619837.0" configVersion="ec46b05361793443a5fd0fea9b55bde400000000"/>
 		<Metadata name="Document.Выдача" id="0eb1590e-0e69-4227-93fc-c8be7039d68a" configVersion="c8d1bb94cc1e4f4d822e441ed27a266c00000000">
@@ -98,12 +102,13 @@
 		<Metadata name="Role.APIПланПоступления.Rights" id="7469f8ae-bd3e-4f16-b8a7-792d0cec2245.0" configVersion="41e49fb0e82c4a46be2e15e338969c9600000000"/>
 		<Metadata name="Role.ПолныеПрава" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3" configVersion="d86cc10054b02043a84fbfe4f55db70a00000000"/>
 		<Metadata name="Role.ПолныеПрава.Rights" id="80c6dfaf-af89-4815-a6be-82ce9ceacec3.0" configVersion="231c0cd17541484c8592e3c1d8f6044700000000"/>
-		<Metadata name="Role.Специалист" id="121144a1-c27a-410b-a7f2-c86001ba857b" configVersion="ce0426c4b55a3346b67b5deb29d9976800000000"/>
-		<Metadata name="Role.Специалист.Rights" id="121144a1-c27a-410b-a7f2-c86001ba857b.0" configVersion="fe1de16d682d97449b00288b6a19fc0500000000"/>
+		<Metadata name="Role.Специалист" id="121144a1-c27a-410b-a7f2-c86001ba857b" configVersion="e1db0ba59705794e98bde47157659a9700000000"/>
+		<Metadata name="Role.Специалист.Rights" id="121144a1-c27a-410b-a7f2-c86001ba857b.0" configVersion="6f6f5b994366364d84c1eeb87a297fb600000000"/>
 		<Metadata name="ScheduledJob.ОчиститьПланыПоступлений" id="e13fd392-4d9d-4e2a-98a5-ff3183a3b933" configVersion="79ea5c078a05b347a02e13323a09724600000000"/>
 		<Metadata name="Subsystem.Администрирование" id="8891bb2b-75f5-4a79-89b0-baa3f0f16866" configVersion="b745702398a5414489d8e615463c7d3300000000"/>
 		<Metadata name="Subsystem.Выдача" id="0b5ac85c-ae4a-42a7-a31e-d2f49b3cbafe" configVersion="7c9610bf9df9374db3d36f76b168056d00000000"/>
 		<Metadata name="Subsystem.Отгрузка" id="23819502-c794-445c-9982-9a80d23b5a68" configVersion="13987f8afc6f374f9f053077384d6d4900000000"/>
-		<Metadata name="Subsystem.Приемка" id="b9bafb34-653b-4d8b-8ebf-202286b2d16f" configVersion="7af80e671c5a514dab739e02fcc7178a00000000"/>
+		<Metadata name="Subsystem.Приемка" id="b9bafb34-653b-4d8b-8ebf-202286b2d16f" configVersion="d4990228e066f84685cb01bdde41490f00000000"/>
+		<Metadata name="Subsystem.Приемка.CommandInterface" id="b9bafb34-653b-4d8b-8ebf-202286b2d16f.1" configVersion="77143881f3a3ec43bbec31804b1cb5df00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

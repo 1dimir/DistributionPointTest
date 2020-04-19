@@ -147,6 +147,24 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ПланыПоступлений.Dimension.ПланПоступления</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.Приемка.Command.Приемка</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПланОтгрузки</name>
 		<right>
 			<name>Read</name>
@@ -261,10 +279,72 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.Приемка</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.Приемка</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПланыПоступлений</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПланыПоступлений.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПланыПоступлений.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПланыПоступлений.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПланыПоступлений.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -481,6 +561,13 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтатусыЗаказа</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

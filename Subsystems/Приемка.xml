@@ -16,6 +16,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Приемка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">4c104e64-32d0-495b-ad54-ce89e196a5e7</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

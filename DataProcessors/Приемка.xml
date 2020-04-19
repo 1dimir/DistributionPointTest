@@ -29,6 +29,26 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
+			<Command uuid="67b68d33-0ce5-43cc-9976-39d4f9839864">
+				<Properties>
+					<Name>Приемка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приемка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Group>NavigationPanelImportant</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
