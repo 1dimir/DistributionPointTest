@@ -97,7 +97,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/point/order</Template>
+					<Template>/point/order/{order_number}</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="5491f107-e94a-48dc-b622-94d936659936">
